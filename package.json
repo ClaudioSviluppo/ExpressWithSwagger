@@ -1,0 +1,21 @@
+{
+  "name": "servernodeexpress",
+  "version": "1.0.0",
+  "description": "server Node Express documentato con swagger",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Claudio Forgiarini",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
